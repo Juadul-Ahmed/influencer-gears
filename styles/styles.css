@@ -6,3 +6,29 @@
   margin: 0;
   padding: 0;
 }
+
+.navbar{
+  margin-top: 87px;
+  max-width: 1440px;
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 120px;
+  gap: 34px;
+}
+.brand{
+  margin-left: 120px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+.navbar ul li{
+  list-style: none;
+  font-size: 1rem;
+  color: #3a3a3a;
+}
