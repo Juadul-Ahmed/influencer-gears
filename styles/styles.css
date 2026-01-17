@@ -217,3 +217,19 @@
   color: #6C6C6C;
   max-width: 501px;
 }
+
+
+
+.footer-section{
+  background-color: #01061b;
+}
+footer{
+  color: white;
+  text-align: center;
+  /* line-height: 20px; */
+  padding: 50px;
+}
+
+footer .icon{
+  margin-right: 16px;
+}
