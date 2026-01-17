@@ -8,9 +8,9 @@
 }
 
 .navbar{
-  margin-top: 87px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   max-width: 1440px;
-  /* margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -31,4 +31,54 @@
   list-style: none;
   font-size: 1rem;
   color: #3a3a3a;
+}
+
+
+.hero{
+  /* border: 1px solid black; */
+  max-width: 1440px;
+  display: flex;
+  gap: 133px;
+  margin-left: 120px;
+  align-items: center;
+}
+.hero-left h1{
+  width: 582px;
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.hero-left p{
+  width: 505px;
+  color: #666;
+  margin-bottom: 25px;
+}
+.btn{
+  background: #e91e63;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.hero-right{
+ position: relative;
+ width: 400px;
+ height: 400px;
+}
+
+.img1{
+  width: 475px;
+  position: absolute;
+  top: 0x;
+  left: 0;
+  z-index: 1;
+}
+
+
+.img2{
+  width: 440px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  z-index: 2;
 }
